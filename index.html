@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Questionerytech</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="nav-wrapper">
+      <a href="#" data-target="card" class="brand">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff" viewBox="0 0 24 24">
+          <path
+            d="M21 4H7c-1.1 0-2 .9-2 2v13h2V6h14v14h-6v2h6c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM1 20c0 1.1.9 2 2 2h10v-2H3V6h10V4H3c-1.1 0-2 .9-2 2v14z" />
+        </svg>
+        <span>QuestioneryTech</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#" data-target="home">Home</a>
+        <a href="#" data-target="about-section">About</a>
+        <a href="#" data-target="courseHeading">Services</a>
+        <a href="#" data-target="socialMediaContainer">Contact</a>
+        <button class="dark-toggle" onclick="toggleDarkMode()">
+          <i class="ri-moon-clear-line" id="toggle-icon"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="card">
+      <h1 class="home scroll-target">Question Bank Solutions</h1>
+      <h2>By Pallavi R. Mashalkar</h2>
+    </div>
+
+    <div class="container">
+      <h3 class="welcome">Welcome to Solution Bank</h3>
+      <p style="font-style: italic;">
+        " Explore our comprehensive Solution Bank for all engineering subjects
+        across every semester. Access detailed solutions, expertly crafted to
+        support your learning journey. Whether you're tackling complex equations
+        or understanding theoretical concepts, our repository has you covered.
+        Simplify your studies with our organized, easy-to-navigate collection
+        tailored for engineering students."
+      </p>
+
+      <h2 class="courseHeading scroll-target">B.Tech CSE</h2>
+      <div class="quesBankContainer">
+        <a href="https://drive.google.com/drive/folders/17-TEpoPffxaPy2QWzHp9yyyJlCcIsxdd?usp=drive_link"
+          target="_blank" rel="noopener noreferrer"><button class="btn">Solution Bank For B.Tech 1st Sem</button></a>
+        <a href="https://drive.google.com/drive/folders/1_G3edQdgJ9Ni56s4OdFuKB9WKSDXNVi9?usp=drive_link"
+          target="_blank" rel="noopener noreferrer"><button class="btn">Solution Bank For B.Tech 2nd Sem</button></a>
+        <a href="https://drive.google.com/drive/folders/1NDLnm7PVxoV4f5o_eVkfHVUCanNjPvMm?usp=drive_link"
+          target="_blank" rel="noopener noreferrer"><button class="btn">Solution Bank For B.Tech 3rd Sem</button></a>
+        <a href="https://drive.google.com/drive/folders/1tO5PNJXbqj6050dRaUgay2HVnbDXrUk8?usp=drive_link"
+          target="_blank" rel="noopener noreferrer"><button class="btn">Solution Bank For B.Tech 4th Sem</button></a>
+        <a href="https://drive.google.com/drive/folders/1a-ohYY4C9psXpUVCIvCueiRLvy1yYp1Z?usp=drive_link"
+          target="_blank" rel="noopener noreferrer"><button class="btn">Solution Bank For B.Tech 5th Sem</button></a>
+        <a href="#"><button class="btn">Solution Bank For B.Tech 6th Sem</button></a>
+        <a href="#"><button class="btn">Solution Bank For B.Tech 7th Sem</button></a>
+        <a href="#"><button class="btn">Solution Bank For B.Tech 8th Sem</button></a>
+      </div>
+
+      <h2 class="courseHeading">BCA</h2>
+      <div class="quesBankContainer">
+        <a href="https://drive.google.com/drive/folders/17-TEpoPffxaPy2QWzHp9yyyJlCcIsxdd?usp=drive_link"
+          target="_blank" rel="noopener noreferrer"><button class="btn">Solution Bank For BCA 1st Sem</button></a>
+        <a href="https://drive.google.com/drive/folders/1_G3edQdgJ9Ni56s4OdFuKB9WKSDXNVi9?usp=drive_link"
+          target="_blank" rel="noopener noreferrer"><button class="btn">Solution Bank For BCA 2nd Sem</button></a>
+      </div>
+
+      <hr />
+      <!-- About Section -->
+      <section class="about-section scroll-target">
+        <h2>About QuestioneryTech</h2>
+        <div class="aboutCards">
+          <div class="card">
+            <h3>Our Mission</h3>
+            <p>To empower engineering and computer science students by providing high-quality, easy-to-understand
+              solution banks tailored to academic success.</p>
+          </div>
+          <div class="card">
+            <h3>Comprehensive Content</h3>
+            <p>We offer a rich collection of solutions across various subjects and semesters, structured to simplify
+              learning and ensure exam readiness.</p>
+          </div>
+          <div class="card">
+            <h3>Expert Contributions</h3>
+            <p>All our solutions are curated by experienced educators and industry professionals who understand student
+              challenges.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- connect Section -->
+      <h3 class="connect scroll-target">Connect With Us From Below</h3>
+      <div class="socialMediaContainer">
+        <a href="https://github.com/mpallavi8643/QuestioneryTech" target="_blank"><i class="ri-github-fill"></i></a>
+        <a href="#"><i class="ri-youtube-fill"></i></a>
+        <a href="#"><i class="ri-instagram-fill"></i></a>
+        <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+        <a href="#"><i class="ri-global-line"></i></a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <nav class="footer-wrapper">
+      <div>&copy; 2025 QuestioneryTech. All rights reserved.</div>
+      <div>Made with ❤️ by Pallavi R. Mashalkar</div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Help</a>
+      </div>
+    </nav>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
