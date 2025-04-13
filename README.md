@@ -81,8 +81,8 @@ Will be uploading all question bank solutions of all semesters of B.Tech Cse to 
 
 Feel free to reach out if you have any questions or suggestions!
 
-- [Website](https://adityadhiman.in)
-- [GitHub](https://github.com/adityadhiman-in)
-- [LinkedIn](https://www.linkedin.com/in/adityadhiman-in)
+
+- [GitHub](https://github.com/mpallavi8643/QuestioneryTech)
+- [LinkedIn]
 
 Made with ❤️ by [Pallavi R. Mashalkar]
